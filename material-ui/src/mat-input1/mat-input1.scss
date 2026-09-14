@@ -1,0 +1,12 @@
+.compact-field {
+  width: 100px;
+  height: 38px;
+
+  ::ng-deep .mat-mdc-form-field-subscript-wrapper {
+    display: none;
+  }
+}
+
+.segment-title .compact-field {
+  margin-left: 8px;
+}
